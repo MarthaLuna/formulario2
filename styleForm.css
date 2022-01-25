@@ -1,0 +1,45 @@
+h1,h2{
+    color:midnightblue;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+#main{
+    align-content: center;
+}
+
+label{
+    display: inline-block;
+    width: 200px;
+    color:midnightblue;
+}
+
+#LabAli{
+    text-align: right;
+}
+
+input text{
+    width: 250px;
+}
+
+#question{
+    color: purple;
+    font-size: 12px;
+}
+
+#button{
+    background-color: seagreen;
+    color: white
+}
+
+a, #footer{
+  padding: 10px;
+  border-radius: 20px;
+ 
+}
+
+#footer{
+    color:darkgrey;
+}

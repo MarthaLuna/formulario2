@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel=StyleSheet href="styleForm.css" type="text/css" media=screen>
+    <title>Form</title>
+</head>
+
+<body>
+    <table id="main">
+        <tr>
+            <td background="fb_bk.png">
+                <h1>Sign Up</h1>
+                <h2>It's free and anyone can join</h2>
+                <form method="GET">
+                    <table>
+                        <tr>
+                            <td id="LabAli"><label for="name">First Name</label></td>
+                            <td><input type="text" id="name" name="user_name"></td>
+                        </tr>
+                        <tr>
+                            <td id="LabAli"> <label for="lname">Last Name</label></td>
+                            <td> <input type="text" id="lname" name="luser_name"></td>
+                        </tr>
+                        <tr>
+                            <td id="LabAli"><label for="mail">Your Mail</label></td>
+                            <td><input type="email" id="mail" name="user_mail"></td>
+                        </tr>
+                        <tr>
+                            <td id="LabAli"><label for="pass">New Password</label></td>
+                            <td><input type="password" id="pass" name="pass"></td>
+                        </tr>
+                        <tr>
+                            <td id="LabAli"><label for="gen">I am</label></td>
+                            <td><select name="gen" id="gen">
+                                    <option value="Female">Female</option>
+                                    <option value="Male">Male</option>
+                                    <option value="ND">ND</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="LabAli"><label for="birth">Birthday</label></td>
+                            <td><input type="datetime-local" id="birth" name="birth"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td id="question">Why do I need to provide this?</td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                            <td><input type="submit" value="Sign Up" id="button"/></td>
+                        </tr>
+                    </table>
+                    <br/>
+                    <br/>
+                    <a href="#">Create a Page </a><span id="footer">for a celebrity, band or business</span>
+                    <br/>
+                    <br/>
+
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
